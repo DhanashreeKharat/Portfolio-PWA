@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">  <!-- PWA manifest -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Hi, I'm Dhanashree Kharat</h1>
+        <p>Web Developer | Designer | Innovator</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer with experience in building web applications. I love creating user-friendly experiences and solving complex problems.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Java</div>
+            <div class="skill">C++</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Project 1: E-Commerce Site</h3>
+                <p>A full-stack e-commerce platform built with React and Node.js. (Demo: Add items to cart and checkout.)</p>
+                <a href="ecommerce.html" class="btn">View Demo</a>  <!-- Links to demo -->
+            </div>
+            <div class="project">
+                <h3>Project 2: Question Bank Generator</h3>
+                <p>A web app that generates customizable question banks for quizzes or exams, built with JavaScript for dynamic content creation. (Demo: Add questions and generate a random bank.)</p>  <!-- Corrected description -->
+                <a href="question-bank.html" class="btn">View Demo</a>  <!-- Links to demo -->
+            </div>
+            <div class="project">
+                <h3>Project 3: Portfolio Site</h3>
+                <p>This very site! Built with HTML, CSS, and JS. (Demo: Explore the full site.)</p>
+                <a href="index.html" class="btn">View Demo</a>  <!-- Links to itself -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: kharatdhanashree9@gmail.com</p>
+        <p>LinkedIn: https://www.linkedin.com/in/dhanashree-kharat-a826a935b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+        <form action="https://formspree.io/f/yourformid" method="POST">  <!-- Replace 'yourformid' with your actual Formspree ID for real email sending -->
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dhanashree. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
